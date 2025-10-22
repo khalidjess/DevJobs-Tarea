@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Empleos | DevJobs</title>
+  <link rel="stylesheet" href="Estilos/global.css" />
+  <link rel="stylesheet" href="Estilos/empleos.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">DevJobs</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="empleos.html" class="active">Empleos</a></li>
+        <li><a href="#">Empresas</a></li>
+        <li><a href="#">Salarios</a></li>
+      </ul>
+    </nav>
+    <div class="actions">
+      <button>Subir CV</button>
+      <div class="user">
+        <span>Bautista Valdez Jesús</span>
+        <img src="jesus-perfil.png" class="avatar" alt="Foto de perfil" />
+      </div>
+    </div>
+  </header>
+
+  <main class="job-listing">
+    <h1>Encuentra tu próximo trabajo</h1>
+    <p>Explora miles de oportunidades en el sector tecnológico.</p>
+
+    <div class="filters">
+      <select><option>Tecnología</option></select>
+      <select><option>Ubicación</option></select>
+      <select><option>Tipo de contrato</option></select>
+      <select><option>Nivel de experiencia</option></select>
+    </div>
+
+    <div class="jobs">
+      <div class="job-card">
+        <h2>Ingeniero de Software</h2>
+        <p>Tech Solutions Inc. | Remoto</p>
+        <p>Buscamos un ingeniero con experiencia en JavaScript, React y Node.js.</p>
+        <button>Aplicar</button>
+        <a href="detalle-empleo.html">Ver mas</a>
+      </div>
+      <div class="job-card">
+        <h2>Analista de Datos</h2>
+        <p>Data Driven Co. | Ciudad de Bolivia</p>
+        <p>Experiencia en SQL, Python y R. Manejo de grandes conjuntos de datos.</p>
+        <button>Aplicar</button>
+      </div>
+      <div class="job-card">
+        <h2>Desarrollador de Apps Móviles</h2>
+        <p>Mobile Apps Ltd. | La Paz</p>
+        <p>Conocimientos en Swift, Kotlin y diseño de interfaces.</p>
+        <button>Aplicar</button>
+      </div>
+      <div class="job-card">
+        <h2>Ingeniero DevOps</h2>
+        <p>Cloud Services SA | Remoto</p>
+        <p>Experiencia en AWS, Azure o GCP. Automatización e integración continua.</p>
+        <button>Aplicar</button>
+      </div>
+    </div>
+
+    <div class="pagination">
+      <span>‹</span>
+      <span>1</span>
+      <span>2</span>
+      <span>3</span>
+      <span>4</span>
+      <span>5</span>
+      <span>›</span>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 DevJobs. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
