@@ -1,0 +1,85 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fondo y tipografía base */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #e6f0f8; /* gris azulado claro */
+  color: #1c1c1c; /* texto oscuro y legible */
+}
+
+/* Enlaces */
+a {
+  text-decoration: none;
+  color: #2a6f97; /* azul suave */
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #1e567a;
+}
+
+/* Botones */
+button {
+  background-color: #2a6f97;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1e567a;
+}
+
+/* Encabezados */
+h1, h2, h3 {
+  margin-bottom: 0.5em;
+  font-weight: 600;
+  color: #1c1c1c;
+}
+
+/* Imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Contenedor general */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+/* Responsive base */
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 1.6em;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  h3 {
+    font-size: 1.1em;
+  }
+
+  button {
+    padding: 0.4em 0.8em;
+  }
+}
